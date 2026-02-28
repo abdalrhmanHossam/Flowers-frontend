@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact Us - Blossom World</title>
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        margin: 0;
+        font-family: 'Verdana', sans-serif;
+        background: url('https://images.unsplash.com/photo-1518976024611-14d8f1e2a024?auto=format&fit=crop&w=1400&q=80') no-repeat center center fixed;
+        background-size: cover;
+        color: #333;
+    }
+    .contact-card {
+        max-width: 500px;
+        margin: 100px auto;
+        background-color: rgba(255,255,255,0.95);
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    }
+    .contact-card h2 {
+        text-align: center;
+        color: #006400;
+        margin-bottom: 30px;
+        font-size: 32px;
+    }
+    input, textarea {
+        width: 100%;
+        padding: 12px;
+        margin: 12px 0;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        outline: none;
+    }
+    button {
+        width: 100%;
+        padding: 14px;
+        background-color: #228B22;
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+    button:hover {
+        background-color: #006400;
+    }
+</style>
+</head>
+<body>
+
+<div class="contact-card">
+    <h2>Contact Us 🍃</h2>
+    <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea placeholder="Write your message..." rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
+</body>
+</html>
